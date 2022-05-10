@@ -40,7 +40,7 @@ class Modelo:
         gl.glUniformMatrix4fv(self.transformaciones_id, 1, gl.GL_FALSE, 
             glm.valueptr(self.transformaciones))
 
-        gl.glDrawArrays(gl.GL_TRIANGLES,0,3)
+        gl.glDrawArrays(gl.GL_TRIANGLES, 0, 3)
 
         gl.glBindVertexArray(0)
         self.shader.liberar_programa()
