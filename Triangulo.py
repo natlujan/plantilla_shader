@@ -28,4 +28,5 @@ class Triangulo(Modelo):
         elif direccion == self.ABAJO:
             cantidad_movimiento.y = cantidad_movimiento.y - 0.05
 
-        self.transformaciones
+          self.transformaciones = glm.translate(self.transformaciones,
+                cantidad_movimiento
