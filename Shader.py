@@ -45,4 +45,3 @@ class Shader:
 
     def borrar(self):
         gl.glDeleteProgram(self.shader_program)
-        
