@@ -41,6 +41,7 @@ class Modelo:
             glm.valueptr(self.transformaciones))
 
         gl.glDrawArrays(gl.GL_TRIANGLES, 0, 3)
+        #gl.glDrawElements(gl.GL_POLYGON)
 
         gl.glBindVertexArray(0)
         self.shader.liberar_programa()
